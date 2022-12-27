@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Raleway:wght@100;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:  #152e74;
+    border: #fff solid 1px;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0580a5;
+  }
+
+body{
+    background-color: #fff;
+    color:#000;
+    margin: 0px auto;
+}
+
+.home{
+    width: 100%;
+    background-color: #0580a5;
+    box-shadow: inset 22px 22px 33px #04617d,
+                inset -22px -22px 33px #069fcd;
+}
+
+.bemvindo{
+    display: flex;
+    color: #152e74;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 20px 10px 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+main , nav{
+    max-width: 980px;
+    margin: 0 auto; 
+}
+
+h1{
+    color: #fff;
+    font-weight: 400;
+    line-height: 78px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #152e74;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+
+p {
+    color: #152e74;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    margin: 20px 0px 20px 0px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #152e74;
+}
+
+header{
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nome_marca{
+    width: 72%;
+}
+
+.botao_admin{
+    margin-left: 20px;
+}
+
+header a{
+    color: #fff;
+    margin-left: 29px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+img{
+    width: 430px;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.noticia{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.noticia:hover{
+    color: #0580a5;   
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.noticia:hover img{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.noticia:hover h3, .noticia:hover p, .noticia:hover a{
+    color: #0580a5;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.informacao{
+    margin: 0px 0px 0px 20px;
+}
+
+header p{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main h1{
+    line-height: 0px;
+    text-transform: uppercase;
+}
+
+#form_poltronas{
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+}
+
+input{
+    color:#152e74;
+    width: 300px;
+    height: 30px;
+    margin: 0px 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: inset 3px 3px 10px #949494, inset 0px 0px 10px #fff;
+}
+
+.camposenha{
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+}
+
+#submit{
+    width: 300px;
+    height: 40px;
+    margin: 15px 5px 5px 5px;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    box-shadow: inset 3px 3px 10px #949494, inset 0px 0px 10px #fff;
+}
+
+#submit:hover{
+    color: #152e74;
+    box-shadow: 0 0 5px #ffffff;
+    transition-delay: 0.1s ;
+}
+
+#password{
+    border: 1px solid #fff;
+}
+
+fieldset{
+    border: none;
+}
+
+.form{
+    display: flex;
+    margin: 64px 0px 64px 0px;
+}
+
+label{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0px 0px 0px 10px;
+}
+legend{
+    color: #fff;
+}
+
+select{
+    color: #152e74;
+    width: 300px;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid #152e74;
+    border-radius: 8px;
+    height: 50px;
+    margin: 0px 0px 0px 6px;
+    border: none;
+    background: #fff;
+    box-shadow: inset 3px 3px 10px #949494, inset 0px 0px 10px #fff;
+}
+
+#login_main{
+    margin: 0px 200px 60px 200px;
+}
+
+#login_login{
+    margin: 200px 200px 0px 200px;
+}
+
+#login_register{
+    margin: 30px 200px 30px 200px;
+    
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 200px 130px 200px;
+    padding: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0580a5;
+    box-shadow: inset 10px 10px 40px #04617d, inset -20px -20px 40px #069fcd;
+}
+
+.formulario_login{
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.home{
+    animation: fromTop .7s .2s backwards;
+}
+
+.login{
+    animation: fromBottom .7s backwards;
+}
+
+.faturamento{
+    animation: fromBottom .7s backwards;
+}
+
+.cartaz{
+    animation: fromBottom .7s backwards;
+}
+
+.cartaz:nth-child(1){
+    animation-delay: 0;
+}
+
+.cartaz:nth-child(2){
+    animation-delay: .4s ;
+}
+.cartaz:nth-child(3){
+    animation-delay: .8s;
+}
+.cartaz:nth-child(4){
+    animation-delay: .10s;
+}
+.cartaz:nth-child(5){
+    animation-delay: .12s;
+}
+
+@keyframes fromTop{
+    from{
+        opacity: 0;
+        transform: translateY(-30px)
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes fromBottom{
+    from{
+        opacity: 0;
+        transform: translateY(30px)
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
